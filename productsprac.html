@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="practicecart.css">
+</head>
+<body>
+  
+
+  <section id="header">
+    <a href="#"><img style="height: 70px; width: 80px;" src="assets/image1.png" class="logo" alt=""></a>
+    <div>
+    <ul id="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li id="lg-bag"><a href="practicecart.html"><i class="far fa-shopping-bag"></i></a></li>
+      <a href="cart.html" id="close"><i class="far fa-times"></i></a>
+    </ul>
+  </div>
+  <div id="mobile">
+    <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+  
+  </div>
+  </section>
+  
+  
+  
+  <h1>Shopping Cart</h1>
+  <div class="items">
+    
+                    
+  </div>
+  <div class="cart">
+    <h2>Cart</h2>
+
+
+    <table>
+      <thead>
+        <tr>
+          <td>Cart Id</td>
+          <td>Product Id</td>
+          <td>Quantity</td>
+          <td>Product Name</td>
+          <td>Price</td>
+          <td>Total</td>
+        </tr>
+      </thead>
+      <tbody id="cart-items">
+
+      </tbody>
+
+    </table>
+
+    <div class="spantag">
+      <span>Cart Total Amount</span>
+      <span id="cart-total">Total</span>
+      <button class="checkout-btn" >Check Out</button>
+    </div>
+
+  </div>
+
+<div >
+  <h1>Your Purchases</h1>
+  <div >
+    <table>
+      <thead>
+        <tr>
+          <td>Sales Id</td>
+          <td>Total Amount</td>
+          <td>Date of Purchase</td>
+          <td>Details</td>
+
+        </tr>
+      </thead>
+      <tbody id="sales-div">
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>
+
+<script src="productprac.js"></script>
+</body>
+</html>

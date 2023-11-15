@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body id="registrationPageBody">
+    <div id="registerationFormContainer">
+      <form id="registrationPageForm">
+        <h1>Registration Page</h1>
+        <p id="message"></p>
+        <input
+          id="registrationName"
+          type="text"
+          id=""
+          placeholder="Kane"
+          required
+          autocomplete="name"
+        />
+        <input
+          type="email"
+          id="registrationEmail"
+          placeholder="example@gmail.com"
+          required
+          autocomplete="email"
+        />
+        <input
+          type="text"
+          id="registrationPassword"
+          placeholder="example$23e"
+          required
+          autocomplete="new-password"
+        />
+        <button id="registerButton">Register</button>
+        <!-- <a href="login.html">Go To log in</a> -->
+      </form>
+    </div>
+    <script src="db.js"></script>
+    <script src="register.js"></script>
+  </body>
+</html>
